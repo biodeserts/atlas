@@ -16,8 +16,7 @@
 
 //----> GENERAL CONFIGURATION VARIABLES
 
-const title = "Species Atlas example"
-const footer = "Some text for the bottom of the page that allows some <b> html notation </b>"
+const title = "Atlas of the Land Vertebrates of Mauritania"
 
 // definitions for single observation
 const obsDefinitions = {"fill": "#3e8ed0aa", "stroke": "#ffffff75", "width": 3};
@@ -387,7 +386,7 @@ const closePopup = document.getElementById('popup-closer');
 // Set title and footer
 document.getElementsByTagName("title")[0].text = title;
 document.getElementById("title").innerHTML = title;
-document.getElementById("footer").innerHTML = footer;
+//document.getElementById("footer").innerHTML = footer;
 
 // Event Listeners
 distCheck.addEventListener("click", function() {
