@@ -1,5 +1,5 @@
 /* 
- | Species Atlas webpage 
+ | Atlas of the Land Vertebrates of Mauritania 
  | 
  | Provides a simple map interface for showing species observation data in a 
  | user defined grid. It displays individual species gridded observations and
@@ -21,26 +21,25 @@ const title = "Atlas of the Land Vertebrates of Mauritania"
 // definitions for single observation
 const obsDefinitions = {"fill": "#3e8ed0aa", "stroke": "#ffffff75", "width": 3};
 
-// Definitions for styles of extra points (circle symbols only). "name" is the
-// value associated with species observations (no more than 3 levels)
+// Definitions for styles of extra points (circle symbols only).
 extraDefinitions = {
-    "Class1": [{
+    "Birds": [{
             "name": 2,
-            "radius": 5,
+            "radius": 8,
             "fill": "#e09f3e",
-            "text": "Some label here"
+            "text": "Holarctic wintering evidence"
         },
         {
             "name": 3,
-            "radius": 2,
+            "radius": 3,
             "fill": "#300505",
-            "text": "Last label by radius order"
+            "text": "Weaker breeding evidence"
         },
         {
             "name": 4,
-            "radius": 4,
+            "radius": 5.5,
             "fill": "#9e2a2b",
-            "text": "Another label"
+            "text": "Strong breeding evidence"
         }
     ]
 };
