@@ -36,7 +36,7 @@ extraDefinitions = {
             "text": "Strong breeding evidence"
         },
         {
-            "name": 4,
+            "name": 3,
             "radius": 5.5,
             "fill": "#9e2a2b",
             "text": "Weaker breeding evidence"
