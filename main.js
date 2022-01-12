@@ -30,16 +30,16 @@ extraDefinitions = {
             "text": "Holarctic wintering evidence"
         },
         {
-            "name": 3,
+            "name": 4,
             "radius": 3,
             "fill": "#300505",
-            "text": "Weaker breeding evidence"
+            "text": "Strong breeding evidence"
         },
         {
             "name": 4,
             "radius": 5.5,
             "fill": "#9e2a2b",
-            "text": "Strong breeding evidence"
+            "text": "Weaker breeding evidence"
         }
     ]
 };
